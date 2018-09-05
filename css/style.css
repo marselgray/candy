@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 /* bootstrap */
 @import url('bootstrap.css');
 /* bootstrap responsive */
@@ -39,7 +39,7 @@ body {
 	color: #444;
 	font-size: 16px;
 	font-weight:300;
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -118,7 +118,7 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family:'Josefin Sans', sans-serif;
 }
 /* =========================================================
 02. Typography
@@ -158,8 +158,7 @@ ul, ol {
 	line-height: 1.5; /* 24px */
 	margin: 0 0 1.5em 0;
 }
-body, input, textarea {
-}
+
 
 a {
   color: #454545;
@@ -173,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #312f2b;
 	line-height:1.1em;
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family:'Josefin Sans', sans-serif;
 }
 h1 {
 	font-size: 36px;
@@ -201,7 +200,7 @@ h6 {
 }
 strong {
 	font-weight:700;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -211,7 +210,7 @@ small {
 }
 em {
 	font-style: normal;
-	font-family: 'Open Sans';
+	font-family: 'Josefin Sans', sans-serif;
 }
 .muted {
 	color: #A5A5A2;
@@ -253,10 +252,7 @@ h2.pagetitle {
 04. Navigation
 ============================================================ */
 
-.navbar-fixed-top .container {
-/* Uncomment to make nav expand full width */
- /*	width: auto; */
-}
+
 .navbar .brand {
 	margin-left:0;
 	padding: 0;
@@ -337,7 +333,7 @@ ul#menu-main > li > a:focus {
 }
 #header-wrapper h2 {
 	color: #fff;
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -387,7 +383,7 @@ header .logo {
 
 #header-wrapper input[type=text] {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
@@ -853,7 +849,6 @@ section#about {
 
 #tweet ul li:before {
 	font-family: 'FontAwesome';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -910,7 +905,7 @@ section#about {
 
 #contact-form input[type=text], .contactForm textarea {
 	background: rgba(227, 231, 228, 1);
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Josefin Sans', sans-serif;
 	border: 0;
 	font-size:16px;
 	text-align: left;
@@ -976,7 +971,7 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -1670,7 +1665,7 @@ i.icon-white {
  display: block;
  text-align:center
 }
- .job-position: {
+ .job-position {
  margin-bottom: 1.5em;
 }
  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
